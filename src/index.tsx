@@ -1,7 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
 import { Web3AuthProvider } from './components/features/Web3authProvider';
 import { BrowserRouter } from 'react-router-dom';
 import Base from './routes/base';
@@ -14,7 +13,6 @@ root.render(
       <BrowserRouter>
         <Base />
       </BrowserRouter>
-      {/* <App /> */}
     </Web3AuthProvider>
   </React.StrictMode>
 );
